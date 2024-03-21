@@ -14,6 +14,9 @@ News in version 0.1.1:
 Bugfixes: Variables with space in their names can now be accessed by removing the spaces.
 New functionality: get_variables() returns a dict instead of only writing to the terminal.
 
+News in version 0.1.2:
+Fixed the module name to avoid conflicts with the original version.
+
 Dependencies: requests>=2.21.0
 
 To install: 

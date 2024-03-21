@@ -10,7 +10,7 @@ with open(this_dir / "README.md", encoding="utf-8") as f:
 
 setup(
     name='pycspwrapper',
-    version='0.1.1',
+    version='0.1.3',
     description="Python wrapper for Latvian official statistics portal API: https://stat.gov.lv/en/api-and-code-list-registry.",
     long_description=long_description,
     long_description_content_type="text/markdown",
