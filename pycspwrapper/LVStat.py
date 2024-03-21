@@ -62,15 +62,15 @@ class LVStat(object):
         variables = response['variables']
         for kwarg in kwargs:
             for var in variables:
-                if var["text"].replace(' ' , '') == kwarg:
+                if var["code"] == kwarg:
                     self.query["query"].append({
                             "code": var['code'],
                             "selection": {
                                     "filter": "item",
                                     "values": [var['values'][j] for j in \
-                                               range(len(var['values'])) if \
-                                               var['valueTexts'][j] in \
-                                               kwargs[kwarg]]
+                                                range(len(var['values'])) if \
+                                                var['values'][j] in \
+                                                kwargs[kwarg]]
                                     }
                                 })
 
