@@ -21,6 +21,9 @@ For info on usage, see the included notebooks.
 
 ## Changelog
 
+News in version 0.1.4:
+Caching info data while in the same location. Updated examples in Latvian and English.
+
 News in version 0.1.3:
 Updated query generation code to use variable and value codes instead of text values.
 
