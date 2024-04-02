@@ -17,7 +17,7 @@ To import:
 from pycspwrapper import LVStat
 ```
 
-For info on usage, see the included notebooks. TODO: Update the notebooks for the Latvian stats.
+For info on usage, see the included notebooks.
 
 ## Changelog
 

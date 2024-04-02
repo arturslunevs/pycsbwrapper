@@ -10,19 +10,24 @@ class LVStat(object):
         self.query = {"query": [], 
                       "response": {"format": "json"}
                       }
+        self._info = None
 
     def info(self):
         """ Returns the metadata associated with the current folder. """
-        response = session.get(self.url + '/'.join(self.ids))
-        return response.json()
+        if not self._info:
+            response = session.get(self.url + '/'.join(self.ids))
+            self._info = response.json()
+        return self._info
 
     def go_down(self, *args):
         """ Goes deeper in the hierarchical metadata structure. """
         self.ids += list(args)
+        self._info = None
 
     def go_up(self, k=1):
         """ Goes k levels up in the hierarchical metadata structure. """
         self.ids = self.ids[:-k]
+        self._info = None
 
     def get_url(self):
         """ Returns the url to the current folder. """
