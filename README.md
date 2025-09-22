@@ -5,8 +5,7 @@ Python wrapper for Central Bureau of Statistics Republic of Latvia pxweb API
 https://stat.gov.lv/lv/api-un-kodu-vardnicas/api
 
 Forked from https://github.com/vf42/pycspwrapper, added additional functionality for returning valueTexts
-which is 
-  forked from https://github.com/kirajcg/pyscbwrapper/, replacing the Sweden API endpoints with the Latvian Central Statistics Bureau ones.
+<br />which is forked from https://github.com/kirajcg/pyscbwrapper/, replacing the Sweden API endpoints with the Latvian Central Statistics Bureau ones.
 
 Dependencies: requests>=2.21.0
 
@@ -27,9 +26,9 @@ News in version 0.0.1:
 For wrapper to be better readable by humans and LLMs added parameters for functions that allow returning not just the codes of variables but also texts
 
 get_data - additional parameter added return_text
-        :param return_text: If False (default), return only value codes.  {'key': ['LV0056420', '2025'], 'values': ['456']}
-                      If True, return codes and texts e.g. {'key': [{'code': 'LV0056420', 'text': '..Piltenes pagasts'}, {'code': '2025', 'text': '2025'}], 'values': ['456']}
+        <br />:param return_text: If False (default), return only value codes.  {'key': ['LV0056420', '2025'], 'values': ['456']}
+                    <br />  If True, return codes and texts e.g. {'key': [{'code': 'LV0056420', 'text': '..Piltenes pagasts'}, {'code': '2025', 'text': '2025'}], 'values': ['456']}
 
 get_variables - additional parameter added codes
-        :param codes: If True (default), return value codes. 
-                      If False, return human-readable texts.
+      <br />  :param codes: If True (default), return value codes. 
+                   <br />   If False, return human-readable texts.
