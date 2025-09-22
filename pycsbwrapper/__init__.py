@@ -2,4 +2,4 @@ import requests
 
 session = requests.Session()
 
-from .LVStat import LVStat
+from .csb import CSB

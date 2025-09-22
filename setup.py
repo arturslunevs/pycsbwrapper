@@ -9,14 +9,14 @@ with open(this_dir / "README.md", encoding="utf-8") as f:
 
 
 setup(
-    name='pycspwrapper',
-    version='0.1.3',
-    description="Python wrapper for Latvian official statistics portal API: https://stat.gov.lv/en/api-and-code-list-registry.",
+    name='pycsbwrapper',
+    version='0.0.1',
+    description="Python wrapper for Central Bureau of Statistics Republic of Latvia pxweb API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/vf42/pycspwrapper',
-    author='Vadim Fedorov',
-    author_email='vadim@vf42.com',
+    url='https://github.com/arturslunevs/pycsbwrapper',
+    author='Arturs Lunevs',
+    author_email='arturs.lunevs@gmail.com',
     license='MIT',
     classifiers=[
         "License :: OSI Approved :: MIT License",
