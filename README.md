@@ -26,9 +26,9 @@ News in version 0.0.1:
 For wrapper to be better readable by humans and LLMs added parameters for functions that allow returning not just the codes of variables but also texts
 
 get_data - additional parameter added return_text
-        <br />:param return_text: If False (default), return only value codes.  {'key': ['LV0056420', '2025'], 'values': ['456']}
-                    <br />  If True, return codes and texts e.g. {'key': [{'code': 'LV0056420', 'text': '..Piltenes pagasts'}, {'code': '2025', 'text': '2025'}], 'values': ['456']}
+        <br /> &emsp; :param return_text: If False (default), return only value codes.  {'key': ['LV0056420', '2025'], 'values': ['456']}
+                    <br /> &emsp; &emsp;  If True, return codes and texts e.g. {'key': [{'code': 'LV0056420', 'text': '..Piltenes pagasts'}, {'code': '2025', 'text': '2025'}], 'values': ['456']}
 
 get_variables - additional parameter added codes
-      <br />  :param codes: If True (default), return value codes. 
-                   <br />   If False, return human-readable texts.
+      <br /> &emsp; :param codes: If True (default), return value codes. 
+                   <br /> &emsp; &emsp;  If False, return human-readable texts.
