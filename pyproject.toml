@@ -23,7 +23,6 @@ Issues = "https://github.com/arturslunevs/pycsbwrapper/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}   # tells setuptools to look in src/
-packages = ["pycsbwrapper"]  # the Python package(s) to include
 
 [tool.setuptools.packages.find]
 where = ["src"]
